@@ -1,11 +1,9 @@
-import { Products } from './components/Products'
-
+import './App.css'
 function App () {
   return (
     <>
-      <Products />
+      <h1>hola mundo</h1>
     </>
   )
 }
-
 export default App
