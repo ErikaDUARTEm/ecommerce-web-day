@@ -17,6 +17,7 @@ export function Product () {
               />
               <div className='px-4'>
                 <h2 className='font-bold'>{product.title}</h2>
+                <p>{product.description.slice(0, 16)}</p>
                 <div className='flex items-center justify-between'>
                   {
                   product.discountPercentage > 0
@@ -31,6 +32,7 @@ export function Product () {
                   <button className='text-xl bg-[#9e1392] p-2 rounded-full w-[40px] h-[40px] text-white'>
                     <span className='icon-cart-add' />
                   </button>
+
                 </div>
               </div>
 
