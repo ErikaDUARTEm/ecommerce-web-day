@@ -1,8 +1,9 @@
+import { Products } from './components/Products'
 
 function App () {
   return (
     <>
-      <h1>Hola</h1>
+      <Products />
     </>
   )
 }
