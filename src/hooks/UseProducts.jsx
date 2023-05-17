@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { ProductsContext } from '../context/Products'
+
 export function useProducts () {
   const products = useContext(ProductsContext)
   if (!products) {
