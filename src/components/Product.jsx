@@ -34,6 +34,7 @@ export function Product () {
                   </button>
 
                 </div>
+                <p />
               </div>
 
             </article>
